@@ -10,7 +10,7 @@ const Features = () => {
         <div class="row">
           <div class="col-lg-4 col-md-4 align-item-center justify-content-center">
             <div class="feature-image">
-              <img src={broom} alt=" Clean Image" />
+              <img src={broom} alt=" Clean" />
             </div>
             <div class="feature-text">
               <h2 class="mt-2">Reliable cleaning</h2>

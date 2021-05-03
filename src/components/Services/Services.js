@@ -10,7 +10,7 @@ const Services = () => {
         <div className="row">
           <div className="col-lg-4 col-md-4 align-item-center justify-content-center">
             <div className="services-image">
-              <img src={cleaning} alt=" Clean Image" />
+              <img src={cleaning} alt=" Clean" />
             </div>
             <div className="services-text">
               <h2 className="mt-2">Get a clean</h2>
@@ -19,7 +19,7 @@ const Services = () => {
           </div>
           <div className="col-lg-4 col-md-4 align-item-center justify-content-center">
             <div className="services-image">
-              <img src={wallet} alt=" Clean Image" />
+              <img src={wallet} alt=" Clean" />
             </div>
             <div className="services-text mt-2">
               <h2 className="mt-2 ">Get great prices</h2>

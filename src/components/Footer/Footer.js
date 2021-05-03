@@ -27,16 +27,16 @@ const Footer = () => {
           <div class="col-lg-3 col-md-3 pl-1">
             <ul class="footer-links">
               <li class="font-weight-bold">
-                <a href="#">About us</a>
+                <a href="1">About us</a>
               </li>
               <li class="pt-5">
-                <a href="#">Current locations</a>
+                <a href="2">Current locations</a>
               </li>
               <li>
-                <a href="#"> Careers</a>
+                <a href="3"> Careers</a>
               </li>
               <li>
-                <a href="#">Contact us </a>
+                <a href="4">Contact us </a>
               </li>
             </ul>
           </div>
@@ -64,10 +64,10 @@ const Footer = () => {
           <div class="col-lg-6">
             <ul class="d-flex other-pages ">
               <li>
-                <a href="#">Privacy</a>
+                <a href="6">Privacy</a>
               </li>
               <li class="pl-5">
-                <a href="#">Terms</a>
+                <a href="7">Terms</a>
               </li>
             </ul>
           </div>
