@@ -8,28 +8,28 @@ import facebook from "../../images/facebook-logo.png";
 
 const Footer = () => {
   return (
-    <footer class="footer mt-5 pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-3 mt-5 pl-1">
-            <a class="footer-logo" href="./index.html">
+    <footer className="footer mt-5 pt-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4 col-md-3 mt-5 pl-1">
+            <a className="footer-logo" href="./index.html">
               <img src={logo} alt="Logo" />
             </a>
-            <div class="footer-downlaod">
-              <div class="row align-item-center">
-                <div class="img-group">
+            <div className="footer-downlaod">
+              <div className="row align-item-center">
+                <div className="img-group">
                   <img src={appstore} alt="" />
                   <img src={android} alt="" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 pl-1">
-            <ul class="footer-links">
-              <li class="font-weight-bold">
+          <div className="col-lg-3 col-md-3 pl-1">
+            <ul className="footer-links">
+              <li className="font-weight-bold">
                 <a href="1">About us</a>
               </li>
-              <li class="pt-5">
+              <li className="pt-5">
                 <a href="2">Current locations</a>
               </li>
               <li>
@@ -40,33 +40,48 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="col-lg-5 col-md-6 pl-1 footer-mail">
+          <div className="col-lg-5 col-md-6 pl-1 footer-mail">
             <h2>Subscribe to newsletter</h2>
-            <form class="form-inline" action="">
+            <form className="form-inline" action="">
               <input type="text" name="" id="" placeholder="Enter You Email" />
-              <button class="btn footer-button" type="button">
+              <button className="btn footer-button" type="button">
                 Subcribe
               </button>
             </form>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 mt-2 pl-1 social-links">
-            <img src={twitter} alt="" />
-            <img class="pl-4" src={insta} alt="" />
-            <img class="pl-4" src={facebook} alt="" />
+        <div className="row">
+          <div className="col-lg-12 mt-2 pl-1 social-links">
+            <img
+              className="pl-4"
+              style={{ width: "50px" }}
+              src={twitter}
+              alt=""
+            />
+            <img
+              style={{ width: "50px" }}
+              className="pl-4"
+              src={insta}
+              alt=""
+            />
+            <img
+              style={{ width: "50px" }}
+              className="pl-4"
+              src={facebook}
+              alt=""
+            />
           </div>
         </div>
-        <div class="row mt-5 copy-right">
-          <div class="col-lg-6 pl-1">
-            <p>&copy; 2020 Cleanify (Pty) Ltd All rights reserved</p>
+        <div className="row mt-5 copy-right">
+          <div className="col-lg-6 pl-1">
+            <p>&copy; 2020 CleanAsst (Pty) Ltd All rights reserved</p>
           </div>
-          <div class="col-lg-6">
-            <ul class="d-flex other-pages ">
+          <div className="col-lg-6">
+            <ul className="d-flex other-pages ">
               <li>
                 <a href="6">Privacy</a>
               </li>
-              <li class="pl-5">
+              <li className="pl-5">
                 <a href="7">Terms</a>
               </li>
             </ul>

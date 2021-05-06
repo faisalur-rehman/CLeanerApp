@@ -1,6 +1,10 @@
 .navbar-toggler {
   display: none;
 }
+
+.navbar-brand img {
+  width: 200px;
+}
 @media screen and (max-width: 750px) {
   .navbar-toggler {
     display: block;

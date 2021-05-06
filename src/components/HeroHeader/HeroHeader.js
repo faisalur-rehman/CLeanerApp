@@ -10,7 +10,7 @@ const HeroHeader = () => {
       <div className="item item1">
         <Link to="location">
           <img src={mop1} alt="" />
-          <h2>Get a Cleaner</h2>
+          <h2>Get a Clean</h2>
         </Link>
       </div>
       <div className=" item item2">

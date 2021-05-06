@@ -1,5 +1,6 @@
 import React from "react";
 import appstore from "../../../assets/images/appstore1.png";
+import playstore from "../../../assets/images/android1.png";
 import "./BeCleaner.css";
 const BeCleaner = () => {
   return (
@@ -16,7 +17,7 @@ const BeCleaner = () => {
           <div class="d-flex pt-3">
             <p>Or Download the App</p>
             <span class="pl-3">
-              <img src={appstore} alt="" />
+              <img src={playstore} alt="" />
             </span>
           </div>
         </div>

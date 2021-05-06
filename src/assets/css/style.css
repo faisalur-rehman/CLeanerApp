@@ -103,10 +103,12 @@ a:hover {
   margin: 0 auto;
 }
 .hero .hero-inner-text h2 {
-  width: 70%;
+  width: 80%;
   font-family: sans-serif;
   font-size: 3rem;
   font-weight: bold;
+  text-align: center;
+  margin: auto;
 }
 .hero .hero-inner-form {
   max-width: 70rem;
@@ -116,7 +118,9 @@ a:hover {
 .hero .images-group {
   max-width: 500px;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 5rem;
+  text-align: center;
+  /* margin-left: 6rem; */
 }
 .hero .hero-inner input {
   border-radius: 3.3rem;
@@ -125,7 +129,8 @@ a:hover {
   padding: 1rem;
   padding-right: 10rem;
   padding-left: 2rem;
-  width: 97%;
+  width: 68%;
+  /* margin-left: 6rem; */
 }
 .hero .hero-inner .hero-button {
   font-family: "Roboto", sans-serif;
@@ -199,6 +204,7 @@ a:hover {
 
 .footer .footer-logo img {
   margin-top: 1rem;
+  width: 180px;
 }
 .footer .footer-downlaod {
   margin-left: 1rem;
@@ -218,13 +224,16 @@ a:hover {
   font-weight: bold;
   font-size: 2.4rem;
   font-family: "Encode Sans", sans-serif;
+  margin-bottom: 20px;
 }
 .footer-mail input {
   border-radius: 3.3rem;
   outline: none;
-  padding: 1rem;
+  padding: 0.8rem;
   padding-right: 2rem;
   padding-left: 2rem;
+  width: 430px;
+  border: 1px solid #e0dede;
 }
 .footer .footer-button {
   font-family: "Roboto", sans-serif;
@@ -491,6 +500,7 @@ a:hover {
   }
   .footer .footer-downlaod .img-group img {
     padding-top: 1rem !important;
+    width: 200px;
   }
   .footer .social-links {
     text-align: center;
