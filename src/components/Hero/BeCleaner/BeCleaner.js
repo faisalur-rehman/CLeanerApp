@@ -1,5 +1,4 @@
 import React from "react";
-import appstore from "../../../assets/images/appstore1.png";
 import playstore from "../../../assets/images/android1.png";
 import "./BeCleaner.css";
 const BeCleaner = () => {

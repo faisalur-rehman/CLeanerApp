@@ -45,7 +45,7 @@ const Footer = () => {
             <form className="form-inline" action="">
               <input type="text" name="" id="" placeholder="Enter You Email" />
               <button className="btn footer-button" type="button">
-                Subcribe
+                Subscribe
               </button>
             </form>
           </div>
