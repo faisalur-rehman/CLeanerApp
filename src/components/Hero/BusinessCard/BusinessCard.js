@@ -12,7 +12,7 @@ const BusinessCard = () => {
           <form class="form-inline" action="">
             <input type="text" name="" id="" placeholder="Enter your email" />
             <button class="btn businessCard-button" type="button">
-              Sign Up
+              Submit
             </button>
           </form>
         </div>

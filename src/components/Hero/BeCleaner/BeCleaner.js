@@ -8,9 +8,14 @@ const BeCleaner = () => {
         <div class="card-body">
           <h5 class="card-title cleaner">Become a cleaner with us today.</h5>
           <form class="form-inline" action="">
-            <input type="text" name="" id="" placeholder="Enter your email" />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter your cellphone"
+            />
             <button class="btn cleanerCard-button" type="button">
-              Submit
+              Signup
             </button>
           </form>
           <div class="d-flex pt-3">

@@ -5,37 +5,6 @@ import androidStore1 from "../../images/android1.png";
 const HeroInner = () => {
   return (
     <>
-      {/* <div
-        style={{
-          textAlign: "center",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <div
-          style={{
-            width: "2%",
-            background: "red",
-            marginRight: "22rem",
-            borderRadius: "50%",
-          }}
-        >
-          .
-        </div>
-        <div
-          style={{
-            width: "2%",
-            marginRight: "22rem",
-            background: "red",
-            borderRadius: "50%",
-          }}
-        >
-          .
-        </div>
-        <div style={{ width: "2%", borderRadius: "50%", background: "red" }}>
-          .
-        </div>
-      </div> */}
       <div className="hero-inner-text">
         <h2>
           Join the industry’s leading cleaning services. Set your own hours and
